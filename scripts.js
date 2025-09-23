@@ -12,7 +12,6 @@ function handleButton(button) {
     // Обработка разных типов кнопок
     if (value === '=') {
         currentExpression = eval(currentExpression.replaceAll("×", "*").replaceAll("÷", "/").replaceAll("−", "-"))
-              eval(currentExpression); currentExpression / 100
     } else if (value === 'C') {
         currentExpression = 0
     } else if (value === '%') {
